@@ -1,0 +1,120 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800&family=Pacifico&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap'); */
+body {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+
+}
+
+.home {
+    width: 100%;
+    /* min-height: 100vh; */
+}
+
+.login {
+    background: #2c47d6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.left-form {
+    text-align: center;
+    color: #fff;
+}
+
+.left-form img {}
+
+.left-form h3 {
+    font-family: 'Pacifico', cursive !important;
+}
+
+.left-form span {}
+
+.login form {
+    width: 40%;
+    background: #f0f0f0;
+    /* height: 25vw; */
+    height: auto;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.login h2 {
+    text-align: center;
+    color: #1616c7;
+    margin: 20px 0;
+}
+
+.login input {
+    width: 70%;
+    border-radius: 13px;
+    margin-left: 20px;
+}
+
+.login form button {
+    margin: 0 0 20px 30px;
+}
+
+form .forget-password {
+    color: #1616c7;
+}
+
+/* ============= Home =============== */
+
+nav {
+    position: absolute;
+width: 100%;
+}
+
+.navbar-nav {
+    height: 5vw;
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 125%;
+}
+
+.user-register {
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    top: 6px;
+    right: 13px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.nav-item .nav-link {
+    font-family: 'Pacifico', cursive !important;
+    font-size: 20px;
+    color: #fff !important;
+}
+
+.dropdown-menu {
+    background: #8585e7;
+}
+
+.dropdown-menu a {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .login {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login form {
+        width: 90%;
+        margin: auto;
+    }
+}
